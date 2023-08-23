@@ -1,0 +1,21 @@
+h2 {
+    color: greenyellow; /*Comentario en css*/ /*Color de Fuente*/
+    text-transform: uppercase; /*Cambia a Mayusculas*/ 
+    text-align: center; /*Alinea al centro*/
+}
+
+h1 {
+    background-color: red; /*Color de Fondo*/
+    font-family: Cambria; /*Cambia familia tipografica*/
+}
+
+p {
+    color: brown;
+    line-height: 15px; /*Separacion entre linea y linea*/
+
+}
+.a { /*solo se agrega en las clases denominadas A*/
+    color: aqua;
+    font-weight: bold; /*negrita*/
+    font-style: italic; /*Fuente Italica*/
+}

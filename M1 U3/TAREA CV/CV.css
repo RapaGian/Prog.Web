@@ -1,0 +1,91 @@
+#caja{
+    background-color: grey;
+    width: 350px;
+    height: 325px;
+    padding: 10px;
+    border: 5px outset black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#fondoh1 {
+    background-color: antiquewhite;
+    text-align: center;
+    width: 300px;
+    height: 75px;
+    margin-bottom: 25px;
+    margin-left: 300px;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.48);
+    border: 10px outset orange;
+    text-decoration: underline;
+}
+
+#cajah2{
+    background-color: grey;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border: 3px ridge lightgray;
+    text-decoration: underline;
+}
+
+h4{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+.Titulo {
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.a {
+    width: 800px;
+    height: 400px;
+}
+
+.contenedor{
+	background-color:beige;
+	display: inline-flex;
+	flex-direction: row;
+    border: 5px outset rgb(73, 70, 70);
+}
+
+.item{
+	background-color: #ccc;
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+	font-size: 15px;
+    text-align: center ;
+    padding-top: 3px;
+    font-weight: bolder;
+    border: 2px solid grey;
+}
+        
+.contenedor2{
+	background-color:beige;
+	display: inline-flex;
+	flex-direction: row;
+    border: 5px outset rgb(73, 70, 70);
+    margin-bottom: 20px;
+}
+
+.item2{
+	background-color: #ccc;
+	width: 120px;
+	height: 75px;
+	margin: 10px;
+	font-size: 15px;
+    text-align: center ;
+    padding-top: 3px;
+    font-weight: bolder;
+    border: 2px solid grey;
+}
+
+.img {
+    margin-right: 15px;
+}
