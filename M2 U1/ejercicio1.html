@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2U1</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadrado amarillo" onclick="cambiarFondo('yellow')"></div>
+        <div class="cuadrado gris" onclick="cambiarFondo('gray')"></div>
+        <div class="cuadrado violeta" onclick="cambiarFondo('violet')"></div>
+    </div>
+    <style>
+        .cuadrado {
+            height: 150px;
+            width: 150px;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .gris {
+            background-color: gray;
+        }
+
+        .violeta {
+            background-color: violet;
+        }
+    </style>
+    <script>
+        function cambiarFondo(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+</body>
+</html>
